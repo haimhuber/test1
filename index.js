@@ -17,3 +17,12 @@ const newElement3 = document.createElement('div');
 newElement3.textContent = 'I am Div 2';
 parentElement.insertBefore(newElement3, referenceElement3);
 
+// Exercise 4
+const childElement = document.querySelector("#child");
+childElement.style.color = 'blue';
+
+// Exercise 5
+const siblingElement = document.querySelectorAll("#sibling");
+siblingElement.forEach((sib) => {
+    sib.style.fontSize = '18px';
+});
