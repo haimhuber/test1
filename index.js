@@ -21,8 +21,3 @@ parentElement.insertBefore(newElement3, referenceElement3);
 const childElement = document.querySelector("#child");
 childElement.style.color = 'blue';
 
-// Exercise 5
-const siblingElement = document.querySelectorAll("#sibling");
-siblingElement.forEach((sib) => {
-    sib.style.fontSize = '18px';
-});
